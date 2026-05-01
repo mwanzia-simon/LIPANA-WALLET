@@ -1,0 +1,76 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-color: #010305;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+::-webkit-scrollbar{
+    width: 0px;
+}
+.logo {
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+}
+.login-container {
+  height: auto;
+  width: 300px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+}
+.login-container h3 {
+  color: #ccc;
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+.form-container {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.form-container .inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+.form-container .inputs label {
+  font-size: 12px;
+  color: #ccc;
+  letter-spacing: 2px;
+}
+
+.form-container .inputs input {
+  padding: 10px 20px;
+  outline: 1px solid #d9b064;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  background-color: #403c39;
+}
+.form-container button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 12px;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 2px;
+  outline: none;
+  border: none;
+  background-color: #d9b064;
+  border-radius: 5px;
+}
+.form-container a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+}

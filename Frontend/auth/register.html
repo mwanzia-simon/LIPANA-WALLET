@@ -7,9 +7,41 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-     <h3>REGISTER TO SIMONYX WALLET</h3>
-
-    <a href="/Frontend/index.html">Back to home</a>
+    <div class="login-container">
+      <img
+        class="logo"
+        src="/Frontend/assets/wallet.svg"
+        alt="SIMONYX WALLET"
+      />
+      <div class="form-container">
+        <h3>REGISTER TO SIMONYX WALLET</h3>
+        <form id="login-form">
+          <div class="inputs">
+            <label for="fullname">FULLNAME</label>
+            <input type="text" id="fullname" placeholder="Eg. john Doe" />
+          </div>
+          <div class="inputs">
+            <label for="register-email">EMAIL</label>
+            <input type="email" id="register-email" placeholder="Eg. youremail@gmail.com" />
+          </div>
+          <div class="inputs">
+            <label for="phone-number">PHONE NUMBER</label>
+            <input type="number" id="phone-number" placeholder="Eg. 0712345678" />
+          </div>
+          <div class="inputs">
+            <label for="register-password">PASSWORD</label>
+            <input
+              type="password"
+              id="register-password"
+              placeholder="Eg. 123456"
+            />
+          </div>
+          <button id="register-button">REGISTER</button>
+        </form>
+        <a href="./login.html">Already has an account?.Click to login.</a>
+      </div>
+      <a href="/Frontend/index.html">Back to home</a>
+    </div>
     <script src="./js/auth.js"></script>
 </body>
 </html>
